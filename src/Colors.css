@@ -1,0 +1,64 @@
+/*red*/
+.color1 {
+    fill: #E6341F;
+}
+
+/*red-orange*/
+.color2 {
+    fill: #EC6322;
+}
+
+/*orange*/
+.color3 {
+    fill: #F6A023;
+}
+
+/*orange-yellow*/
+.color4 {
+    fill: #FAC812;
+}
+
+/*yellow*/
+.color5 {
+    fill: #FCEA21;
+}
+
+/*yellow-green*/
+.color6 {
+    fill: #83BB26;
+}
+
+/*green*/
+.color7 {
+    fill: #34A936;
+}
+
+/*green-blue*/
+.color8 {
+    fill: #35B5A8;
+}
+
+/*blue*/
+.color9 {
+    fill: #1F6DB5;
+}
+
+/*blue-purple*/
+.color10 {
+    fill: #3D4E9D;
+}
+
+/*purple*/
+.color11 {
+    fill: #62398E;
+}
+
+/*purple-red*/
+.color0 {
+    fill: #CF318A;
+}
+
+.marker {
+    fill: white;
+    position: absolute;
+}
