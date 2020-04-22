@@ -1,64 +1,81 @@
 import React from 'react';
 import {Component} from 'react';
 import './App.css';
-import Robot from "./Components/Robot";
+// import Trial from "./Components/Trial";
 import Wheel from "./Components/Wheel";
 import Marker from "./Components/Marker";
-
-// zrób propsy z małej - z dużej są tylko nazwy komponentów
+import Robot from "./Components/Robot";
 
 class App extends Component {
     state = {
-        ColorScheme: "",
-        ShapeColor1: "",
-        ShapeColor2: "",
-        ShapeColor3: "",
-        ShapeColor4: "",
+        shapeColor1: "",
+        shapeColor2: "",
+        shapeColor3: "",
+        shapeColor4: "",
+        complementaryMarker: 0,
+        analogousMarker: 0,
+        splitComplementaryMarker: 0,
+        triadicMarker: 0,
+        tetradicMarker: 0,
+        squareMarker: 0,
+        selectedColorScheme: ""
     };
 
-    handleClick = (color, ColorScheme) => {
+    handleClick = (color, colorScheme) => {
 
-        if (ColorScheme === "Complementary") {
+        if (colorScheme === "Complementary") {
             this.setState({
-                ShapeColor1: "color" + color,
-                ShapeColor2: "color" + color,
-                ShapeColor3: "color" + (color + 6) % 12,
-                ShapeColor4: "color" + (color + 6) % 12
+                shapeColor1: "color" + color,
+                shapeColor2: "color" + color,
+                shapeColor3: "color" + (color + 6) % 12,
+                shapeColor4: "color" + (color + 6) % 12,
+                complementaryMarker: color - 1,
+                selectedColorScheme: colorScheme
             })
-        } else if (ColorScheme === "Analogous") {
+        } else if (colorScheme === "Analogous") {
             this.setState({
-                ShapeColor1: "color" + color,
-                ShapeColor2: "color" + (color + 1) % 12,
-                ShapeColor3: "color" + (color + 2) % 12,
-                ShapeColor4: "color" + color
+                shapeColor1: "color" + color,
+                shapeColor2: "color" + (color + 1) % 12,
+                shapeColor3: "color" + (color + 2) % 12,
+                shapeColor4: "color" + color,
+                analogousMarker: color - 1,
+                selectedColorScheme: colorScheme
             })
-        } else if (ColorScheme === "SplitComplementary") {
+        } else if (colorScheme === "SplitComplementary") {
             this.setState({
-                ShapeColor1: "color" + color,
-                ShapeColor2: "color" + (color + 5) % 12,
-                ShapeColor3: "color" + (color + 7) % 12,
-                ShapeColor4: "color" + color
+                shapeColor1: "color" + color,
+                shapeColor2: "color" + (color + 5) % 12,
+                shapeColor3: "color" + (color + 7) % 12,
+                shapeColor4: "color" + color,
+                splitComplementaryMarker: color - 1,
+                selectedColorScheme: colorScheme
             })
-        } else if (ColorScheme === "Triadic") {
+        } else if (colorScheme === "Triadic") {
             this.setState({
-                ShapeColor1: "color" + color,
-                ShapeColor2: "color" + (color + 4) % 12,
-                ShapeColor3: "color" + (color + 8) % 12,
-                ShapeColor4: "color" + color
+                shapeColor1: "color" + color,
+                shapeColor2: "color" + (color + 4) % 12,
+                shapeColor3: "color" + (color + 8) % 12,
+                shapeColor4: "color" + color,
+                triadicMarker: color - 1,
+                selectedColorScheme: colorScheme
             })
-        } else if (ColorScheme === "Tetradic") {
+        } else if (colorScheme === "Tetradic") {
             this.setState({
-                ShapeColor1: "color" + color,
-                ShapeColor2: "color" + (color + 4) % 12,
-                ShapeColor3: "color" + (color + 6) % 12,
-                ShapeColor4: "color" + (color + 10) % 12,
+                shapeColor1: "color" + color,
+                shapeColor2: "color" + (color + 4) % 12,
+                shapeColor3: "color" + (color + 6) % 12,
+                shapeColor4: "color" + (color + 10) % 12,
+                tetradicMarker: color - 1,
+                selectedColorScheme: colorScheme
             })
-        } else if (ColorScheme === "Square") {
+        } else if (colorScheme === "Square") {
             this.setState({
-                ShapeColor1: "color" + color,
-                ShapeColor2: "color" + (color + 3) % 12,
-                ShapeColor3: "color" + (color + 6) % 12,
-                ShapeColor4: "color" + (color + 9) % 12
+                shapeColor1: "color" + color,
+                shapeColor2: "color" + (color + 3) % 12,
+                shapeColor3: "color" + (color + 6) % 12,
+                shapeColor4: "color" + (color + 9) % 12,
+                squareMarker: color - 1,
+                selectedColorScheme: colorScheme
             })
         }
     };
@@ -67,40 +84,46 @@ class App extends Component {
         return (
             <div className="App">
                 <Robot
-                    ShapeColor1={this.state.ShapeColor1}
-                    ShapeColor2={this.state.ShapeColor2}
-                    ShapeColor3={this.state.ShapeColor3}
-                    ShapeColor4={this.state.ShapeColor4}
+                    shapeColor1={this.state.shapeColor1}
+                    shapeColor2={this.state.shapeColor2}
+                    shapeColor3={this.state.shapeColor3}
+                    shapeColor4={this.state.shapeColor4}
                 />
-                <span>Complementary</span>
+                {/*<Trial*/}
+                {/*    shapeColor1={this.state.shapeColor1}*/}
+                {/*    shapeColor2={this.state.shapeColor2}*/}
+                {/*    shapeColor3={this.state.shapeColor3}*/}
+                {/*    shapeColor4={this.state.shapeColor4}*/}
+                {/*/>*/}
+                <span className={this.state.selectedColorScheme === "Complementary" ? "Selected" : ""}>Complementary</span>
                 <div>
-                    <Marker ColorScheme="Complementary"/>
-                    <Wheel Blublu={(color) => this.handleClick(color, "Complementary")}/>
+                    <Marker rotation={this.state.complementaryMarker} colorScheme="Complementary"/>
+                    <Wheel selection={this.state.selectedColorScheme === "Complementary" ? "SelectedWheel" : ""} onClick={(color) => this.handleClick(color, "Complementary")}/>
                 </div>
-                <span>Analogous</span>
+                <span className={this.state.selectedColorScheme === "Analogous" ? "Selected" : ""}>Analogous</span>
                 <div>
-                    <Marker ColorScheme="Analogous"/>
-                    <Wheel Blublu={(color) => this.handleClick(color, "Analogous")}/>
+                    <Marker rotation={this.state.analogousMarker} colorScheme="Analogous"/>
+                    <Wheel selection={this.state.selectedColorScheme === "Analogous" ? "SelectedWheel" : ""} onClick={(color) => this.handleClick(color, "Analogous")}/>
                 </div>
-                <span>Split Complementary</span>
+                <span className={this.state.selectedColorScheme === "SplitComplementary" ? "Selected" : ""}>Split Complementary</span>
                 <div>
-                    <Marker ColorScheme="SplitComplementary"/>
-                    <Wheel Blublu={(color) => this.handleClick(color, "SplitComplementary")}/>
+                    <Marker rotation={this.state.splitComplementaryMarker} colorScheme="SplitComplementary"/>
+                    <Wheel selection={this.state.selectedColorScheme === "SplitComplementary" ? "SelectedWheel" : ""} onClick={(color) => this.handleClick(color, "SplitComplementary")}/>
                 </div>
-                <span>Triadic</span>
+                <span className={this.state.selectedColorScheme === "Triadic" ? "Selected" : ""}>Triadic</span>
                 <div>
-                    <Marker ColorScheme="Triadic"/>
-                    <Wheel Blublu={(color) => this.handleClick(color, "Triadic")}/>
+                    <Marker rotation={this.state.triadicMarker} colorScheme="Triadic"/>
+                    <Wheel selection={this.state.selectedColorScheme === "Triadic" ? "SelectedWheel" : ""} onClick={(color) => this.handleClick(color, "Triadic")}/>
                 </div>
-                <span>Tetradic (rectangular)</span>
+                <span className={this.state.selectedColorScheme === "Tetradic" ? "Selected" : ""}>Tetradic (rectangular)</span>
                 <div>
-                    <Marker ColorScheme="Tetradic"/>
-                    <Wheel Blublu={(color) => this.handleClick(color, "Tetradic")}/>
+                    <Marker rotation={this.state.tetradicMarker} colorScheme="Tetradic"/>
+                    <Wheel selection={this.state.selectedColorScheme === "Tetradic" ? "SelectedWheel" : ""} onClick={(color) => this.handleClick(color, "Tetradic")}/>
                 </div>
-                <span>Square</span>
+                <span className={this.state.selectedColorScheme === "Square" ? "Selected" : ""}>Square</span>
                 <div>
-                    <Marker ColorScheme="Square"/>
-                    <Wheel Blublu={(color) => this.handleClick(color, "Square")}/>
+                    <Marker rotation={this.state.squareMarker} colorScheme="Square"/>
+                    <Wheel selection={this.state.selectedColorScheme === "Square" ? "SelectedWheel" : ""} onClick={(color) => this.handleClick(color, "Square")}/>
                 </div>
             </div>
         );

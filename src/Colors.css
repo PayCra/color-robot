@@ -1,64 +1,66 @@
 /*red*/
-.color1 {
+.color1, .color1 rect {
     fill: #E6341F;
 }
 
 /*red-orange*/
-.color2 {
+.color2, .color2 rect {
     fill: #EC6322;
 }
 
 /*orange*/
-.color3 {
+.color3, .color3 rect {
     fill: #F6A023;
 }
 
 /*orange-yellow*/
-.color4 {
+.color4, .color4 rect {
     fill: #FAC812;
 }
 
 /*yellow*/
-.color5 {
+.color5, .color5 rect {
     fill: #FCEA21;
 }
 
 /*yellow-green*/
-.color6 {
+.color6, .color6 rect {
     fill: #83BB26;
 }
 
 /*green*/
-.color7 {
+.color7, .color7 rect {
     fill: #34A936;
 }
 
 /*green-blue*/
-.color8 {
+.color8, .color8 rect {
     fill: #35B5A8;
 }
 
 /*blue*/
-.color9 {
+.color9, .color9 rect {
     fill: #1F6DB5;
 }
 
 /*blue-purple*/
-.color10 {
+.color10, .color10 rect {
     fill: #3D4E9D;
 }
 
 /*purple*/
-.color11 {
+.color11, .color11 rect {
     fill: #62398E;
 }
 
 /*purple-red*/
-.color0 {
+.color0, .color0 rect {
     fill: #CF318A;
 }
 
 .marker {
     fill: white;
     position: absolute;
+    pointer-events: none;
+    z-index: 1;
 }
