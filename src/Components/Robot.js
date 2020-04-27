@@ -4,7 +4,7 @@ function Robot (props) {
     return (
         <svg width="595.28px" height="841.89px" viewBox="0 0 595.28 841.89">
 
-            <g className={props.shapeColor1} id="arms-body-head">
+            <g className={props.shapeColor1} id="hands-body-head">
                 <rect x="201.334" y="105.89" display="inline" stroke="#000000" width="139" height="111"/>
                 <rect x="161" y="215.89" display="inline" stroke="#000000" width="197" height="245"/>
                 <rect x="73" y="339.557" display="inline" stroke="#000000" width="37" height="41"/>
@@ -12,14 +12,14 @@ function Robot (props) {
                 <line display="inline" fill="none" stroke="#000000" x1="72" y1="460.89" x2="496" y2="460.89"/>
             </g>
 
-            <g className={props.shapeColor2} id="eyes-mouth-outer">
+            <g className={props.shapeColor2} id="eyes-mouth-outer-chamber">
                 <rect x="223" y="120.89" display="inline" stroke="#000000" width="27" height="24"/>
                 <rect x="285.5" y="119.89" display="inline" stroke="#000000" width="27" height="24"/>
                 <rect x="231.5" y="173.89" display="inline" stroke="#000000" width="71" height="22.5"/>
                 <rect x="223.002" y="338.219" display="inline" stroke="#000000" width="88" height="71.333"/>
             </g>
 
-            <g className={props.shapeColor3} id="arms-inner">
+            <g className={props.shapeColor3} id="arms-inner-chamber">
                 <rect x="349" y="232.224" display="inline" stroke="#000000" width="100" height="23"/>
                 <rect x="73.667" y="218.223" display="inline" stroke="#000000" width="87" height="28"/>
                 <rect x="73" y="246.223" display="inline" stroke="#000000" width="26" height="98"/>
@@ -38,12 +38,12 @@ function Robot (props) {
                 <rect x="292" y="188.89" display="inline" stroke="#000000" width="6" height="7.5"/>
             </g>
 
-            <g className={props.shapeColor4} id="right-top-left">
+            <g className={props.shapeColor5} id="right-top-left-chambers">
                 <rect x="293.002" y="263.552" display="inline" stroke="#000000" width="29.333" height="34.667"/>
                 <rect x="202.335" y="261.552" display="inline" stroke="#000000" width="16.667" height="14"/>
             </g>
 
-            <g className={props.shapeColor3} id="bottom-left">
+            <g className={props.shapeColor6} id="bottom-left-chamber">
                 <rect x="205.668" y="284.886" display="inline" stroke="#000000" width="15.333" height="16.667"/>
             </g>
         </svg>

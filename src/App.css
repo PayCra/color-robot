@@ -1,36 +1,29 @@
-.App {
-    /*text-align: center;*/
+.Body {
+    /*display: flex;*/
+    /*align-items: center;*/
 }
 
-.Shape1 {
-    height: 50px;
-    width: 100px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+.Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
 }
 
-.Shape2 {
-    height: 30px;
-    width: 100px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+.Title {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-.Shape3 {
-    height: 10px;
-    width: 100px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+.Set {
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 .Selected {
-    font-size: 110%;
-    color: darkblue;
+    font-weight: 600;
 }
 
 .SelectedWheel {
-    filter: drop-shadow(0px 0px 5px darkblue);
+    filter: drop-shadow(0px 0px 10px black);
 }
