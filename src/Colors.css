@@ -58,6 +58,10 @@
     fill: #CF318A;
 }
 
+.initial {
+    fill: white;
+}
+
 .marker {
     fill: white;
     position: absolute;

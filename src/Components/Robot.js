@@ -2,14 +2,14 @@ import React from "react";
 
 function Robot (props) {
     return (
-        <svg width="595.28px" height="841.89px" viewBox="0 0 595.28 841.89">
+        <svg width="318px" height="300px" viewBox="71 154 380 260">
 
             <g className={props.shapeColor1} id="hands-body-head">
                 <rect x="201.334" y="105.89" display="inline" stroke="#000000" width="139" height="111"/>
                 <rect x="161" y="215.89" display="inline" stroke="#000000" width="197" height="245"/>
                 <rect x="73" y="339.557" display="inline" stroke="#000000" width="37" height="41"/>
                 <rect x="404" y="354.224" display="inline" stroke="#000000" width="45" height="39"/>
-                <line display="inline" fill="none" stroke="#000000" x1="72" y1="460.89" x2="496" y2="460.89"/>
+                <line display="inline" fill="none" stroke="#000000" x1="77" y1="460.89" x2="455" y2="460.89"/>
             </g>
 
             <g className={props.shapeColor2} id="eyes-mouth-outer-chamber">

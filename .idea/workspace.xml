@@ -1,9 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7681b08a-8539-4ebd-abf8-a6a02b3542de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Marker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Marker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Robot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Robot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Wheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Wheel.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZACtHv2TT1oeoJYDrGypM9ZbUj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7681b08a-8539-4ebd-abf8-a6a02b3542de" name="Default Changelist" comment="" />
+      <created>1585656035697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585656035697</updated>
+      <workItem from="1585656037213" duration="149000" />
+      <workItem from="1585661687250" duration="6853000" />
+      <workItem from="1585840106000" duration="4604000" />
+      <workItem from="1585951449532" duration="2879000" />
+      <workItem from="1586176087815" duration="10832000" />
+      <workItem from="1586339424285" duration="29000" />
+      <workItem from="1586360986487" duration="1406000" />
+      <workItem from="1586476857691" duration="267000" />
+      <workItem from="1586904282142" duration="1495000" />
+      <workItem from="1586961520051" duration="14000" />
+      <workItem from="1587388024019" duration="1089000" />
+      <workItem from="1587558670035" duration="2358000" />
+      <workItem from="1587932342908" duration="946000" />
+      <workItem from="1587978964239" duration="5222000" />
+      <workItem from="1588067851070" duration="1753000" />
+      <workItem from="1588283456452" duration="194000" />
+      <workItem from="1588284333668" duration="3146000" />
+      <workItem from="1588435916084" duration="1199000" />
+      <workItem from="1588517302889" duration="27000" />
+      <workItem from="1589195645939" duration="1202000" />
+      <workItem from="1589220602727" duration="2557000" />
+      <workItem from="1589306196370" duration="602000" />
+      <workItem from="1589308654026" duration="402000" />
+      <workItem from="1589363277610" duration="3703000" />
+      <workItem from="1589377030649" duration="616000" />
+    </task>
+    <task id="LOCAL-00001" summary="Trial present.">
+      <created>1587560160897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587560160897</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Distributed.">
+      <created>1588004899265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588004899265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trial present." />
+    <MESSAGE value="Distributed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Distributed." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1588004897657">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588004897657" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1589309054962">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589309054962" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1588004951704">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588004951704" />
   </component>
 </project>
