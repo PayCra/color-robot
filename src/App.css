@@ -6,8 +6,9 @@
 .Robot {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 75px 0 75px;
+    /*justify-content: center;*/
+    padding: 50px 75px 0 75px;
+    height: fit-content;
 }
 
 .Text {

@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7681b08a-8539-4ebd-abf8-a6a02b3542de" name="Default Changelist" comment="">
+    <list default="true" id="7681b08a-8539-4ebd-abf8-a6a02b3542de" name="Default Changelist" comment="Before rescaling.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Marker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Marker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Robot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Robot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Wheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Wheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +77,23 @@
       <workItem from="1589308654026" duration="402000" />
       <workItem from="1589363277610" duration="3703000" />
       <workItem from="1589377030649" duration="616000" />
+      <workItem from="1589377863972" duration="632000" />
+      <workItem from="1589401814749" duration="1850000" />
+      <workItem from="1589459363025" duration="763000" />
+      <workItem from="1589474586851" duration="1541000" />
+      <workItem from="1589713300757" duration="3050000" />
+      <workItem from="1589722003507" duration="980000" />
+      <workItem from="1589723356398" duration="681000" />
+      <workItem from="1589884636221" duration="203000" />
+      <workItem from="1590383771561" duration="2735000" />
+      <workItem from="1590411016803" duration="1479000" />
+      <workItem from="1590501570732" duration="930000" />
+      <workItem from="1590509479872" duration="4759000" />
+      <workItem from="1590566223055" duration="241000" />
+      <workItem from="1590596987716" duration="3708000" />
+      <workItem from="1590765206054" duration="1194000" />
+      <workItem from="1590848512290" duration="657000" />
+      <workItem from="1591216573057" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="Trial present.">
       <created>1587560160897</created>
@@ -95,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588004899265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Scaled.">
+      <created>1589377908423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589377908423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Before rescaling.">
+      <created>1590411853355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590411853355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,17 +145,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Trial present." />
     <MESSAGE value="Distributed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Distributed." />
+    <MESSAGE value="Scaled." />
+    <MESSAGE value="Before rescaling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Before rescaling." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1588004897657">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1590411852281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588004897657" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1589309054962">
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590411852281" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1590386510935">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589309054962" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590386510935" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1588004951704">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

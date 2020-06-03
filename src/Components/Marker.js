@@ -8,7 +8,7 @@ function Marker(props) {
 
     if (props.colorScheme === 'Complementary') {
         return (
-            <svg style={position} className="marker" width="131.25px" height="131.25px" viewBox="0 0 200 200">
+            <svg style={position} className="marker" width="125px" height="125px" viewBox="0 0 200 200">
                 <path d="M102.502,167.248V32.751c2.207-0.965,3.75-3.164,3.75-5.727c0-3.452-2.798-6.25-6.25-6.25
 	c-3.451,0-6.25,2.798-6.25,6.25c0,2.562,1.544,4.761,3.75,5.726v134.497c-2.206,0.967-3.75,3.166-3.75,5.727
 	c0,3.451,2.799,6.25,6.25,6.25c3.452,0,6.25-2.799,6.25-6.25C106.252,170.412,104.709,168.213,102.502,167.248z"/>
