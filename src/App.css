@@ -4,14 +4,18 @@
 }
 
 .Robot {
-    padding: 0 75px 0 75px;
+    padding: 7vh 4vw 0 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Text {
-    padding-top: 50px;
-    height: 50px;
-    max-width: 318px;
+    padding-top: 4vh;
+    width: 25vw;
     font-size: 15px;
+    min-width: 299px;
 }
 
 .Title {
@@ -29,8 +33,8 @@
 }
 
 .Wheel-container {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
     min-width: 170px;
     display: flex;
     justify-content: center;
@@ -56,6 +60,17 @@
     height: 85vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.robot-svg {
+    width: 25vw;
+    height: 55vh;
+    min-width: 265px;
+    min-height: 250px;
+}
+
+.wheel-svg {
+    height: 22vh;
+    min-height: 115px;
 }

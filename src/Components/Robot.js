@@ -2,7 +2,8 @@ import React from "react";
 
 function Robot (props) {
     return (
-        <svg width="318px" height="300px" viewBox="71 154 380 260">
+        <svg className={"robot-svg"} viewBox="71 154 380 260">
+            {/*<svg width="318px" height="300px" viewBox="71 154 380 260">*/}
 
             <g className={props.shapeColor1} id="hands-body-head">
                 <rect x="201.334" y="105.89" display="inline" stroke="#000000" width="139" height="111"/>

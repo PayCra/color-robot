@@ -8,7 +8,7 @@ function Marker(props) {
 
     if (props.colorScheme === 'Complementary') {
         return (
-            <svg style={position} className="marker" width="150px" height="150px" viewBox="0 0 200 200">
+            <svg style={position} className="marker" viewBox="0 0 200 200">
                 <path d="M102.502,167.248V32.751c2.207-0.965,3.75-3.164,3.75-5.727c0-3.452-2.798-6.25-6.25-6.25
 	c-3.451,0-6.25,2.798-6.25,6.25c0,2.562,1.544,4.761,3.75,5.726v134.497c-2.206,0.967-3.75,3.166-3.75,5.727
 	c0,3.451,2.799,6.25,6.25,6.25c3.452,0,6.25-2.799,6.25-6.25C106.252,170.412,104.709,168.213,102.502,167.248z"/>
@@ -17,7 +17,7 @@ function Marker(props) {
         )
     } else if (props.colorScheme === 'Analogous') {
         return (
-            <svg style={position} className="marker" width="150px" height="150px" viewBox="0 0 200 200">
+            <svg style={position} className="marker" viewBox="0 0 200 200">
                 <rect fill="none" width="200" height="200"/>
                 <path d="M166.323,68.926c2.99-1.725,4.014-5.547,2.288-8.537c-1.566-2.713-4.858-3.799-7.69-2.688l-18.62-18.621
 	c1.113-2.83,0.026-6.124-2.688-7.69c-2.713-1.566-6.107-0.861-8.003,1.518l-25.437-6.817c-0.452-3.007-3.04-5.315-6.173-5.315
@@ -30,7 +30,7 @@ function Marker(props) {
         )
     } else if (props.colorScheme === 'SplitComplementary') {
         return (
-            <svg style={position} className="marker" width="150px" height="150px" viewBox="0 0 200 200"
+            <svg style={position} className="marker" viewBox="0 0 200 200"
             >
                 <path d="M60.39,168.611c2.989,1.727,6.812,0.7,8.536-2.289c0.523-0.905,0.79-1.887,0.83-2.864l30.241-11.736
 	l30.247,11.738c0.04,0.978,0.307,1.959,0.83,2.864c1.725,2.99,5.547,4.014,8.537,2.288c2.988-1.726,4.013-5.548,2.287-8.538
@@ -43,7 +43,7 @@ function Marker(props) {
         )
     } else if (props.colorScheme === 'Triadic') {
         return (
-            <svg style={position} className="marker" width="150px" height="150px" viewBox="0 0 200 200">
+            <svg style={position} className="marker" viewBox="0 0 200 200">
                 <path d="M166.324,131.073c-1.209-0.698-2.555-0.939-3.842-0.789l-57.469-99.537c0.774-1.041,1.238-2.326,1.238-3.723
 	c0-3.451-2.798-6.25-6.249-6.25c-3.452,0-6.25,2.799-6.25,6.25c0,1.376,0.45,2.645,1.204,3.677l-57.49,99.577
 	c-1.273-0.138-2.598,0.106-3.792,0.796c-2.988,1.726-4.014,5.548-2.287,8.537c1.726,2.99,5.549,4.014,8.537,2.288
@@ -56,7 +56,7 @@ function Marker(props) {
         )
     } else if (props.colorScheme === 'Tetradic') {
         return (
-            <svg style={position} className="marker" width="150px" height="150px" viewBox="0 0 200 200"
+            <svg style={position} className="marker" viewBox="0 0 200 200"
             >
                 <path d="M106.251,172.975c0-1.397-0.465-2.686-1.241-3.727l57.467-99.535c1.288,0.15,2.635-0.09,3.845-0.789
 	c2.988-1.726,4.013-5.548,2.287-8.537c-1.726-2.99-5.549-4.013-8.537-2.287c-0.204,0.118-0.396,0.247-0.582,0.383L106.21,27.723
@@ -74,7 +74,7 @@ function Marker(props) {
         )
     } else if (props.colorScheme === 'Square') {
         return (
-            <svg style={position} className="marker" width="150px" height="150px" viewBox="0 0 200 200">
+            <svg style={position} className="marker" viewBox="0 0 200 200">
                 <path d="M172.975,93.75c-0.878,0-1.712,0.183-2.47,0.509l-64.763-64.762c0.327-0.758,0.51-1.593,0.51-2.472
 	c0-3.452-2.798-6.25-6.249-6.25c-3.452,0-6.25,2.798-6.25,6.25c0,0.903,0.195,1.759,0.54,2.534l-64.73,64.731
 	c-0.776-0.346-1.634-0.542-2.538-0.542c-3.451,0-6.25,2.799-6.25,6.25c0,3.453,2.799,6.25,6.25,6.25

@@ -67,4 +67,6 @@
     position: absolute;
     pointer-events: none;
     z-index: 1;
+    height: 22vh;
+    min-height: 115px;
 }

@@ -9,7 +9,7 @@ function Wheel (props) {
             {/*    <circle cx="100px" cy="100px" r="100px" fill={"transparent"}></circle>*/}
             {/*</svg>*/}
 
-            <svg className={props.selection} width="150px" height="150px" viewBox="0 0 200 200">
+            <svg className={"wheel-svg " + props.selection} viewBox="0 0 200 200">
             <path onClick={() => props.onClick(1)} className="color1" d="M74.11,3.395L99.989,100l0.014-0.001L125.889,3.39C108.942-1.132,91.054-1.13,74.11,3.395z"/>
             <path onClick={() => props.onClick(2)} className="color2" d="M125.882,3.392L99.99,99.994l0.013,0.006l70.723-70.722C158.311,16.889,142.817,7.946,125.882,3.392z"/>
             <path onClick={() => props.onClick(3)} className="color3" d="M170.718,29.276L99.994,99.991l0.007,0.012l96.61-25.886C192.054,57.179,183.108,41.688,170.718,29.276z"/>
