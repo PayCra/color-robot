@@ -21,7 +21,7 @@ class App extends Component {
         tetradicMarker: 0,
         squareMarker: 0,
         selectedColorScheme: "",
-        text: "Click on any color wheel to change the colors of the robot."
+        text: <><span className="Emphasized">Click</span><span> on any </span><span className="Emphasized">color wheel</span><span> to change the colors of the robot.</span></>
     };
 
     handleClick = (color, colorScheme) => {
@@ -35,8 +35,8 @@ class App extends Component {
                 shapeColor6: "color" + (color + 6) % 12,
                 complementaryMarker: color - 1,
                 selectedColorScheme: colorScheme,
-                text: <>Complementary color scheme is intense and draws immediate attention.<br/>
-                    It can be too strong and produce a clashing effect. Use with caution!</>
+                text: <><span className="Emphasized">Complementary color scheme</span> is intense and draws immediate attention.<br/>
+                    <span className="Emphasized">Hint:</span> this pairing can produce a clashing effect. Use with caution!</>
 
             })
         } else if (colorScheme === "Analogous") {
@@ -49,7 +49,7 @@ class App extends Component {
                 shapeColor6: "color" + (color + 2) % 12,
                 analogousMarker: color - 1,
                 selectedColorScheme: colorScheme,
-                text: <>Analogous color scheme produces a harmonious effect.</>
+                text: <><span className="Emphasized">Analogous color scheme</span> produces a harmonious effect.</>
             })
         } else if (colorScheme === "SplitComplementary") {
             this.setState({
@@ -61,8 +61,8 @@ class App extends Component {
                 shapeColor6: "color" + (color + 7) % 12,
                 splitComplementaryMarker: color - 1,
                 selectedColorScheme: colorScheme,
-                text: <>Split complementary is a popular and elegant color scheme for rich but harmonious design.<br/>
-                    Hint: choose one main color and use the other two as accents.</>
+                text: <><span className="Emphasized">Split complementary</span> is a popular and elegant color scheme for rich but harmonious design.<br/>
+                    <span className="Emphasized">Hint:</span> choose one main color and use the other two as accents.</>
             })
         } else if (colorScheme === "Triadic") {
             this.setState({
@@ -74,8 +74,8 @@ class App extends Component {
                 shapeColor6: "color" + (color + 8) % 12,
                 triadicMarker: color - 1,
                 selectedColorScheme: colorScheme,
-                text: <>Triadic color scheme is for the bold.<br/>
-                    Hint: choose one main color and use the other two as accents.</>
+                text: <><span className="Emphasized">Triadic color scheme</span> is for the bold.<br/>
+                    <span className="Emphasized">Hint:</span> choose one main color and use the other two as accents.</>
             })
         } else if (colorScheme === "Tetradic") {
             this.setState({
@@ -87,8 +87,8 @@ class App extends Component {
                 shapeColor6: "color" + (color + 6) % 12,
                 tetradicMarker: color - 1,
                 selectedColorScheme: colorScheme,
-                text: <>Tetradic color scheme will make your design look rich, yet cohesive.<br/>
-                    Hint: choose one main color and use the other three as accents.</>
+                text: <><span className="Emphasized">Tetradic color scheme</span> will make your design look rich, yet cohesive.<br/>
+                    <span className="Emphasized">Hint:</span> choose one main color and use the other three as accents.</>
             })
         } else if (colorScheme === "Square") {
             this.setState({
@@ -100,16 +100,15 @@ class App extends Component {
                 shapeColor6: "color" + (color + 6) % 12,
                 squareMarker: color - 1,
                 selectedColorScheme: colorScheme,
-                text: <>Square color scheme looks lively and abundant.<br/>
-                    Hint: choose one main color and use the other three as accents.</>
+                text: <><span className="Emphasized">Square color scheme</span> looks lively and abundant.<br/>
+                    <span className="Emphasized">Hint:</span> choose one main color and use the other three as accents.</>
             })
         }
     };
 
     render() {
         return (
-            <div>
-                <div className="Title">Color Scheme Robot</div>
+            <div className="All">
                 <div className="Container">
                     <div className="Left-column">
                         <div className="Set">
@@ -144,7 +143,9 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="Middle">
-                    <div className="Robot">
+                        <div className="Title">Color Scheme Robot</div>
+
+                        <div className="Robot">
                         <Robot
                             shapeColor1={this.state.shapeColor1}
                             shapeColor2={this.state.shapeColor2}

@@ -1,6 +1,15 @@
+.All {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .Container {
+    padding-top: 10vh;
     display: flex;
     justify-content: center;
+    min-width: fit-content;
+    min-height: fit-content;
 }
 
 .Robot {
@@ -21,7 +30,6 @@
 .Title {
     font-size: 24px;
     text-align: center;
-    padding-top: 5vh;
 }
 
 .Label {
@@ -68,9 +76,15 @@
     height: 55vh;
     min-width: 265px;
     min-height: 250px;
+    max-width: 55vh;
 }
 
 .wheel-svg {
     height: 22vh;
     min-height: 115px;
+}
+
+.Emphasized {
+    font-weight: 600;
+    color: blue;
 }
