@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7681b08a-8539-4ebd-abf8-a6a02b3542de" name="Default Changelist" comment="Before rescaling.">
+    <list default="true" id="f7fc123e-403a-4f55-afaa-b9b8a5592a5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Marker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Marker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Wheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Wheel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZACtHv2TT1oeoJYDrGypM9ZbUj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -47,120 +53,103 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7681b08a-8539-4ebd-abf8-a6a02b3542de" name="Default Changelist" comment="" />
-      <created>1585656035697</created>
+      <changelist id="f7fc123e-403a-4f55-afaa-b9b8a5592a5e" name="Default Changelist" comment="" />
+      <created>1591382512462</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585656035697</updated>
-      <workItem from="1585656037213" duration="149000" />
-      <workItem from="1585661687250" duration="6853000" />
-      <workItem from="1585840106000" duration="4604000" />
-      <workItem from="1585951449532" duration="2879000" />
-      <workItem from="1586176087815" duration="10832000" />
-      <workItem from="1586339424285" duration="29000" />
-      <workItem from="1586360986487" duration="1406000" />
-      <workItem from="1586476857691" duration="267000" />
-      <workItem from="1586904282142" duration="1495000" />
-      <workItem from="1586961520051" duration="14000" />
-      <workItem from="1587388024019" duration="1089000" />
-      <workItem from="1587558670035" duration="2358000" />
-      <workItem from="1587932342908" duration="946000" />
-      <workItem from="1587978964239" duration="5222000" />
-      <workItem from="1588067851070" duration="1753000" />
-      <workItem from="1588283456452" duration="194000" />
-      <workItem from="1588284333668" duration="3146000" />
-      <workItem from="1588435916084" duration="1199000" />
-      <workItem from="1588517302889" duration="27000" />
-      <workItem from="1589195645939" duration="1202000" />
-      <workItem from="1589220602727" duration="2557000" />
-      <workItem from="1589306196370" duration="602000" />
-      <workItem from="1589308654026" duration="402000" />
-      <workItem from="1589363277610" duration="3703000" />
-      <workItem from="1589377030649" duration="616000" />
-      <workItem from="1589377863972" duration="632000" />
-      <workItem from="1589401814749" duration="1850000" />
-      <workItem from="1589459363025" duration="763000" />
-      <workItem from="1589474586851" duration="1541000" />
-      <workItem from="1589713300757" duration="3050000" />
-      <workItem from="1589722003507" duration="980000" />
-      <workItem from="1589723356398" duration="681000" />
-      <workItem from="1589884636221" duration="203000" />
-      <workItem from="1590383771561" duration="2735000" />
-      <workItem from="1590411016803" duration="1479000" />
-      <workItem from="1590501570732" duration="930000" />
-      <workItem from="1590509479872" duration="4759000" />
-      <workItem from="1590566223055" duration="241000" />
-      <workItem from="1590596987716" duration="3708000" />
-      <workItem from="1590765206054" duration="1194000" />
-      <workItem from="1590848512290" duration="657000" />
-      <workItem from="1591216573057" duration="230000" />
+      <updated>1591382512462</updated>
+      <workItem from="1591382535810" duration="587000" />
+      <workItem from="1591392839218" duration="1806000" />
+      <workItem from="1591485606753" duration="613000" />
+      <workItem from="1591549598238" duration="251000" />
+      <workItem from="1591549918305" duration="606000" />
+      <workItem from="1591653529531" duration="2247000" />
+      <workItem from="1591688038549" duration="2838000" />
+      <workItem from="1591783607560" duration="598000" />
+      <workItem from="1591913634006" duration="36000" />
+      <workItem from="1592208810627" duration="19000" />
+      <workItem from="1592575000388" duration="98000" />
+      <workItem from="1592575509123" duration="35000" />
+      <workItem from="1592586787352" duration="631000" />
+      <workItem from="1592596483476" duration="5803000" />
+      <workItem from="1592659120864" duration="779000" />
+      <workItem from="1592676723132" duration="599000" />
+      <workItem from="1593015973229" duration="537000" />
+      <workItem from="1593029695204" duration="1880000" />
+      <workItem from="1593108289617" duration="496000" />
+      <workItem from="1593108812917" duration="2858000" />
+      <workItem from="1593431564580" duration="730000" />
+      <workItem from="1593799316034" duration="160000" />
+      <workItem from="1593799771606" duration="8850000" />
+      <workItem from="1594131309305" duration="96000" />
+      <workItem from="1598882818386" duration="32000" />
+      <workItem from="1600687422211" duration="326000" />
     </task>
-    <task id="LOCAL-00001" summary="Trial present.">
-      <created>1587560160897</created>
+    <task id="LOCAL-00001" summary="Fixed sizes with viewport">
+      <created>1592605112699</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1587560160897</updated>
+      <updated>1592605112699</updated>
     </task>
-    <task id="LOCAL-00002" summary="Distributed.">
-      <created>1588004899265</created>
+    <task id="LOCAL-00002" summary="Responsive robot.">
+      <created>1594131369249</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1588004899265</updated>
+      <updated>1594131369249</updated>
     </task>
-    <task id="LOCAL-00003" summary="Scaled.">
-      <created>1589377908423</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1589377908423</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Before rescaling.">
-      <created>1590411853355</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1590411853355</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trial present." />
-    <MESSAGE value="Distributed." />
-    <MESSAGE value="Scaled." />
-    <MESSAGE value="Before rescaling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Before rescaling." />
+    <MESSAGE value="Fixed sizes with viewport" />
+    <MESSAGE value="Responsive robot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive robot." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1590411852281">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1594131368719">
+      <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590411852281" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1590386510935">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.683@0.0.1280.683" timestamp="1594131368719" />
+    <state x="314" y="38" key="FileChooserDialogImpl" timestamp="1598882849296">
+      <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590386510935" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1588004951704">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="314" y="38" key="FileChooserDialogImpl/0.0.1280.683@0.0.1280.683" timestamp="1598882849296" />
+    <state x="15" y="0" key="MergeDialog" timestamp="1591304442126">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588004951704" />
+    <state x="15" y="0" key="MergeDialog/0.0.1280.688@0.0.1280.688" timestamp="1591304442126" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1594131385040">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1594131385040" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592586796353">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.683@0.0.1280.683" timestamp="1592586796353" />
+    <state x="317" y="0" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591304429255">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="317" y="0" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.688@0.0.1280.688" timestamp="1591304429255" />
+    <state x="370" y="129" key="git4idea.merge.GitPullDialog" timestamp="1593431666280">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="370" y="129" key="git4idea.merge.GitPullDialog/0.0.1280.683@0.0.1280.683" timestamp="1593431666280" />
   </component>
 </project>

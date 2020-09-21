@@ -5,7 +5,6 @@
 }
 
 .Container {
-    padding-top: 10vh;
     display: flex;
     justify-content: center;
     min-width: fit-content;
@@ -28,6 +27,7 @@
 }
 
 .Title {
+    padding-top: 5vh;
     font-size: 24px;
     text-align: center;
 }
