@@ -109,7 +109,7 @@ class App extends Component {
     render() {
         return (
             <div className="All">
-                <div className="Title">Color Scheme Robot</div>
+                {/*<div className="Title">Color Scheme Robot</div>*/}
                 <div className="Container">
                     <div className="Left-column">
                         <div className="Set">
@@ -144,6 +144,7 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="Middle">
+                        <div className="Title">Color Scheme Robot</div>
                         <div className="Robot">
                         <Robot
                             shapeColor1={this.state.shapeColor1}
