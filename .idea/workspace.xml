@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7fc123e-403a-4f55-afaa-b9b8a5592a5e" name="Default Changelist" comment="Responsive robot.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    <list default="true" id="f7fc123e-403a-4f55-afaa-b9b8a5592a5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1594131309305" duration="96000" />
       <workItem from="1598882818386" duration="32000" />
       <workItem from="1600687422211" duration="645000" />
-      <workItem from="1600688578007" duration="1176000" />
+      <workItem from="1600688578007" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed sizes with viewport">
       <created>1592605112699</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600687864221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Responsive robot.">
+      <created>1600690816972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600690816972</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,18 +135,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Responsive robot." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1600687989201">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1600690816691">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.683@0.0.1280.683" timestamp="1600687989201" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.683@0.0.1280.683" timestamp="1600690816691" />
     <state x="314" y="38" key="FileChooserDialogImpl" timestamp="1600688583481">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
     <state x="314" y="38" key="FileChooserDialogImpl/0.0.1280.683@0.0.1280.683" timestamp="1600688583481" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600687961224">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600690827343">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1600687961224" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.683@0.0.1280.683" timestamp="1600690827343" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600687941169">
       <screen x="0" y="0" width="1280" height="683" />
     </state>
