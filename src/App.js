@@ -21,7 +21,7 @@ class App extends Component {
         tetradicMarker: 0,
         squareMarker: 0,
         selectedColorScheme: "",
-        text: <><span className="Emphasized">Click</span><span> on any </span><span className="Emphasized">color wheel</span><span> to change the colors of the robot.</span></>
+        text: <><span className="StartingEmphasized">CLICK</span><span> on any </span><span className="StartingEmphasized">WHEEL</span><span> to change the colors of the robot.</span></>
     };
 
     handleClick = (color, colorScheme) => {

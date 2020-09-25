@@ -89,3 +89,9 @@
     font-weight: 600;
     color: blue;
 }
+
+.StartingEmphasized {
+    font-weight: 600;
+    color: red;
+    font-size: larger;
+}
