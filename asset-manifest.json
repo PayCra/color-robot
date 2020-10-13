@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/color-robot/static/css/main.2cd816b4.chunk.css",
-    "main.js": "/color-robot/static/js/main.915690c7.chunk.js",
-    "main.js.map": "/color-robot/static/js/main.915690c7.chunk.js.map",
+    "main.css": "/color-robot/static/css/main.7555eb1c.chunk.css",
+    "main.js": "/color-robot/static/js/main.1a0cd2e7.chunk.js",
+    "main.js.map": "/color-robot/static/js/main.1a0cd2e7.chunk.js.map",
     "runtime-main.js": "/color-robot/static/js/runtime-main.93f32ca5.js",
     "runtime-main.js.map": "/color-robot/static/js/runtime-main.93f32ca5.js.map",
     "static/js/2.92950f3a.chunk.js": "/color-robot/static/js/2.92950f3a.chunk.js",
     "static/js/2.92950f3a.chunk.js.map": "/color-robot/static/js/2.92950f3a.chunk.js.map",
     "index.html": "/color-robot/index.html",
-    "precache-manifest.d26ead21af909237de8cda6274174a8f.js": "/color-robot/precache-manifest.d26ead21af909237de8cda6274174a8f.js",
+    "precache-manifest.35e124567f8b8c9e2b5b88e58028077f.js": "/color-robot/precache-manifest.35e124567f8b8c9e2b5b88e58028077f.js",
     "service-worker.js": "/color-robot/service-worker.js",
-    "static/css/main.2cd816b4.chunk.css.map": "/color-robot/static/css/main.2cd816b4.chunk.css.map",
+    "static/css/main.7555eb1c.chunk.css.map": "/color-robot/static/css/main.7555eb1c.chunk.css.map",
     "static/js/2.92950f3a.chunk.js.LICENSE.txt": "/color-robot/static/js/2.92950f3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.93f32ca5.js",
     "static/js/2.92950f3a.chunk.js",
-    "static/css/main.2cd816b4.chunk.css",
-    "static/js/main.915690c7.chunk.js"
+    "static/css/main.7555eb1c.chunk.css",
+    "static/js/main.1a0cd2e7.chunk.js"
   ]
 }
