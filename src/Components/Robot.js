@@ -3,6 +3,19 @@ import React from "react";
 function Robot (props) {
     return (
         <svg className={"robot-svg"} viewBox="71 154 380 260">
+
+            <defs>
+                <filter id="myShadow">
+                    <feDropShadow
+                        dx="0"
+                        dy="0"
+                        stdDeviation="2"
+                        floodColor="#000000"
+                        floodOpacity="3"
+                    />
+                </filter>
+            </defs>
+
             <g className={props.shapeColor1} id="hands-body-head">
                 <rect x="201.334" y="105.89" display="inline" stroke="#000000" width="139" height="111"/>
                 <rect x="161" y="215.89" display="inline" stroke="#000000" width="197" height="245"/>
@@ -43,7 +56,7 @@ function Robot (props) {
             </g>
 
             <g className={props.shapeColor6} id="bottom-left-chamber">
-                <rect x="205.668" y="284.886" display="inline" stroke="#000000" width="15.333" height="16.667"/>
+                <rect filter="url(#myShadow)" x="205.668" y="284.886" display="inline" stroke="#000000" width="15.333" height="16.667"/>
             </g>
         </svg>
 
